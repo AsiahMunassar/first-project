@@ -1,0 +1,207 @@
+
+body{
+
+    background:url('../images/sona.jpg') no-repeat center fixed ; 
+    line-height: 1.6em;
+    margin: auto;
+    padding: 15px;
+    background-size: cover; 
+
+    }
+  
+.headimage
+{
+    background:url('../images/55.jpg');
+    background-position: center;
+    background-size:cover;
+    height: 350px;
+    width: 100%;
+    color: rgb(192, 52, 192)
+}
+
+
+.myimg
+{
+    width: 250px;
+    height: 250px;
+    display: block;
+    padding-bottom:10px; 
+   display: inline ; 
+}
+
+
+
+.items
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+p 
+{
+    color: rgb(161, 2, 127);
+    font: bold   20px Allura;
+    margin: center;
+}
+
+h1
+{
+    color: rgba(250, 240, 247, 0.877);
+
+
+    font: bold   35px  Allura;
+    text-align: center
+}
+
+h1:first-letter 
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 206, 9)
+
+
+}
+
+h3
+{
+    color: rgb(49, 26, 51);
+
+    font: italic   30px  Allura center;
+    margin:center
+
+}
+h2
+{
+    color: rgb(93, 10, 100);
+
+
+    font: italic   30px  Allura center;
+    margin:center
+
+}
+
+h4
+{
+    color: rgb(49, 17, 41);
+
+    font: normal   20px  Allura center
+
+}
+h5 
+{ 
+    color:white;
+
+    font: bold   20px  Allura left
+
+}
+
+img
+{
+    width: 40px;
+    height:20px;
+    
+}
+a
+{
+    text-align: center
+}
+.modal-body
+{
+    color: beige;
+    background-color: rgba(233, 54, 164, 0.836)
+}
+
+ .left
+ {
+     color: blue;
+     float:left;
+     padding: 20px;
+     margin: 30
+
+ }  
+ .right
+ {
+     float: right;
+     padding: 20px;
+
+ }      
+.end
+{ 
+    width: 80%;
+    height:200% ;
+    background: rgb(99, 24, 53);
+    border: 2px double black ;
+    color: blanchedalmond;
+    float:left ;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.pic
+{
+    width: 50px;
+    height: 40px;
+}
+.mid
+{ 
+    text-align: center
+}
+.cardcontainer 
+{
+    display:flex;
+   margin: 10%;
+   justify-content:space-between;
+
+  
+}
+
+#listbox
+{
+    background: rgb(228, 21, 217);
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+ul { 
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20px;
+    color: rgb(41, 18, 26);
+    text-align:left;
+    list-style:url("tik.gif");
+      
+  }
+
+
+  #main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: rgb(220, 81, 248)
+}
+
+    .container{
+        
+        margin: auto;
+        width:100%;
+        height: 80%;
+        box-sizing: content-box;
+        overflow: hidden;
+        position: relative;
+    }
+
+
+@media(max-width:600px){
+    header{
+        width: 100%;
+        float: none;
+    }
+} 
